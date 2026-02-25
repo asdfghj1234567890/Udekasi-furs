@@ -110,6 +110,19 @@
   margin: 10px;
 }
 
+.orange-circle-button {
+  width: 3em; /* Ширина кнопки */
+  height: 3em; /* Высота кнопки */
+  background-color: rgb(219, 148, 15); /* Цвет фона */
+  border-color: black;
+  border-width: 3px;
+  border-radius: 50%; /* Скругляем углы до круга */
+  cursor: pointer; /* Указатель курсора */
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+  margin: 10px;
+}
+
 .blackwhite-circle-button {
   width: 3em; /* Ширина кнопки */
   height: 3em; /* Высота кнопки */
@@ -425,3 +438,4 @@
 body.modal-open {
   overflow: hidden; /* Prevent body scrolling when modal is open */
 }
+
